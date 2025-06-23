@@ -82,16 +82,20 @@ int main(){
 		//walk(root);
 		//cout<<endl;
 	}
-
+	
+	cout<<"prewalking"<<endl;
 	prewalk(root);
 	cout<<endl;
 	
+	cout<<"postwalking"<<endl;
 	postwalk(root);
 	cout<<endl;
 	
+	cout<<"inwalking"<<endl;
 	inwalk(root);
 	cout<<endl;
 	
+	cout<<"breadthwalking"<<endl;
     breadthwalk(root);
     cout<<endl;
 	
