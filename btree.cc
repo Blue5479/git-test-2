@@ -95,6 +95,7 @@ int main(){
     breadthwalk(root);
     cout<<endl;
 	
+	cout<<"freeing memory"<<endl;
 	btfree(root);
     
 	return (0);
