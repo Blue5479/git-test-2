@@ -101,6 +101,8 @@ int main(){
 	
 	cout<<"freeing memory"<<endl;
 	btfree(root);
+	
+	cout<<"finished!"<<endl;
     
 	return (0);
 }
